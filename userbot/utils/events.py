@@ -75,8 +75,8 @@ async def get_user_from_event(
 
 
 async def hadeh_ajg():
-    join = ("@Ramsupportt")
-    dulu = ("@UserbotCh")
+    join = ("@jb_indo")
+    dulu = ("@selllastore")
     try:
         if bot:
             await bot(Get(join))
