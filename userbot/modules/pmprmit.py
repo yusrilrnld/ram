@@ -18,15 +18,13 @@ from userbot.events import ram_cmd
 from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
-    f"╭━━━━━━━━━━━━━━━━━╮\n    🌟SELAMAT DATANG🌟\n"
-    "╰━━━━━━━━━━━━━━━━━╯\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    f"ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN GUA ITU SALAM,\nHABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,\nKALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KAYA ANAK YATIM MAU MINTA SEMBAKO LU ANJING, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU MAJIKAN GUA NERIMA PESAN LU\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• 𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄\n"
-    "┣[• 𝐁𝐘 ⭐️𝐑𝐀𝐌-𝐔𝐁𝐎𝐓⭐️\n"
-    "╰✠╼━━━━━━❖━━━━━━━✠╯"
+"❏ 𝐏𝐞𝐫𝐢𝐧𝐠𝐚𝐭𝐚𝐧!!!\n"
+    "• Tuan Saya belum menyetujui anda untuk Chat.\n"
+    "• Tunggu sampai Tuan menyetujui chat anda.\n"
+    "• Jangan Spam Chat atau anda akan otomatis di blokir.\n"
+    "┌━━━━━━━━━━━━\n"
+    "├❏ 𝐏𝐞𝐬𝐚𝐧 𝐨𝐭𝐨𝐦𝐚𝐭𝐢𝐬 𝐁𝐲 𝗨𝘀𝗲𝗿𝗯𝗼𝘁\n"
+    "└━━━━━━━━━━━━\n"
 )
 
 @bot.on(events.NewMessage(incoming=True))
