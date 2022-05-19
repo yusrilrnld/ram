@@ -55,7 +55,7 @@ async def gban(event):
         await ehajg(event, "**Maaf Mas, Lo Gabisa Gban dia Karna Dia Developer Gua**", 5)
         return
     if user.id in DEVG:
-        await ehajg(event, "**Omaygat, Itu admin @Ramsupportt Tolol, Gabisa lah...**", 5)
+        await ehajg(event, "**Omaygat, Itu admin Gua, Gabisa lah Tolol...**", 5)
         return
     if gban_sql.is_gbanned(user.id):
         await gbun.edit(
@@ -71,7 +71,7 @@ async def gban(event):
         await gbun.edit("**Gabisa Gban, Karna Lo gada Gc Yg Lo adminin, Ciann....**")
         return
     await gbun.edit(
-        f"**Global Banned Si** [TOLOL](tg://user?id={user.id}) **Dalam** `{len(san)}` **groups**"
+        f"**Global Banned Si** [MONYET](tg://user?id={user.id}) **Dalam** `{len(san)}` **groups**"
     )
     for i in range(fiz):
         try:
@@ -109,7 +109,7 @@ async def ungban(event):
         gban_sql.freakungban(user.id)
     else:
         await ungbun.edit(
-            f"**SI** [TOLOL](tg://user?id={user.id}) **INI BELOM LO GBAN ANJING!!!!!!!!!**"
+            f"**SI** [MONYET](tg://user?id={user.id}) **INI BELOM LO GBAN ANJING!!!!!!!!!**"
         )
         return
     san = []
