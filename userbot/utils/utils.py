@@ -34,7 +34,7 @@ else:
 
 async def creatgr():
     LOGS.info("LAGI GUA BIKININ GRUP BUAT LO NGENTOT LO KONTOL")
-    desc = "Group Log untuk ⭐RAM-UBOT⭐.\n\nJANGAN KELUAR LO MONYED NANTI CRASH!.\n\n✨ Powered By ~ @UserbotCh ✨"
+    desc = "Group Log untuk ⭐RAM-UBOT⭐.\n\nJANGAN KELUAR LO MONYED NANTI CRASH!.\n\n✨ Powered By ~ @yusril4you ✨"
     try:
         grup = await bot(
             CreateChannelRequest(title="✨RAM UBOT✨ LOGS", about=desc, megagroup=True)
@@ -166,7 +166,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @RamSupportt ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @jb_indo ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
