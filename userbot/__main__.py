@@ -20,15 +20,15 @@ try:
     call_py.start()
     user = bot.get_me()
     ramblacklist = requests.get(
-        "https://raw.githubusercontent.com/ramadhani892/Ramblack/master/ramblacklist.json"
+        "https://raw.githubusercontent.com/yusrilrnld/Ramblack/master/DEVS.json"
     ).json()
     if user.id in ramblacklist:
         LOGS.warning(
             "USERBOT TIDAK DAPAT BERJALAN, KARNA LO KONTOL MAKE SEMEMA MENA, BOT LO DI MATIIN HEHEH, LAPORKAN KE @MERDHNI"        )
         sys.exit(1)
-    if 1826643972 not in DEVS:
+    if 1093385250 not in DEVS:
         LOGS.warning(
-            f"EOL\n✨ RAM - UBOT ✨ versi {BOT_VER}, © copyright by @merdhni"
+            f"EOL\n✨ RAM - UBOT ✨ versi {BOT_VER}, © copyright by @yusril4you"
         )
         sys.exit(1)
 except Exception as e:
