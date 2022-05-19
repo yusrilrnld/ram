@@ -20,11 +20,11 @@ try:
     call_py.start()
     user = bot.get_me()
     ramblacklist = requests.get(
-        "https://raw.githubusercontent.com/yusrilrnld/Ramblack/master/DEVS.json"
+        "https://raw.githubusercontent.com/yusrilrnld/Ramblack/master/ramblacklist.json"
     ).json()
     if user.id in ramblacklist:
         LOGS.warning(
-            "USERBOT TIDAK DAPAT BERJALAN, KARNA LO KONTOL MAKE SEMEMA MENA, BOT LO DI MATIIN HEHEH, LAPORKAN KE @MERDHNI"        )
+            "MAMPUS BOT LU GUA MATIIN, KARENA LU MAKE TANPA SEIJIN GUA, LAPORKAN KE @YUSRIL4YOU"        )
         sys.exit(1)
     if 1093385250 not in DEVS:
         LOGS.warning(
