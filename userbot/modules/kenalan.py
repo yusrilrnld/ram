@@ -9,27 +9,27 @@ async def _(event):
     sleep(2)
     await eor(event, "`Mohon Tunggu.....`")
     sleep(1)
-    await eor(event, "`**PAYMENT ACENG • STOREE \n\n DANA = 0895611203477 \n\nㅤPAYMENT ACENG • STOREE \n\nㅤGOPAY = 081270603368 \n\nㅤ★@ACENG_STOREE★ **",
+    await eor(event, "`**PAYMENT ACENG • STOREE \n\n DANA = 0895611203477 \n\nㅤPAYMENT ACENG • STOREE \n\nㅤGOPAY = 081270603368 \n\nㅤ★@ACENG_STOREE★**",
     # Create by myself @YUSRIL4YOU
 
 
 @ram_cmd(pattern='pay2(?: |$)(.*)')
 async def _(event):
-    await eor(event, "`Cuma Mau Bilang`")
+    await eor(event, "`Sabar Ya Kak`")
     sleep(3)
-    await eor(event, "`Aku Sayang Kamu`")
-    sleep(1)
-    await eor(event, "`I LOVE YOU 💞`")
+    await eor(event, "`Mohon Tunggu Beberapa Detik....`")
+    sleep(3)
+    await eor(event, "`Yah Kosong Kak Maaf🥺`")
 # Create by myself @yusril4you
 
 
 @ram_cmd(pattern='pay3(?: |$)(.*)')
 async def _(event):
-    await eor(event, "`Apapun Yang Terjadi`")
+    await eor(event, "`Sedang Mengetik....`")
+    sleep(2)
+    await eor(event, "`Mohon Bersabar....`")
     sleep(3)
-    await eor(event, "`Tetaplah Bernapas`")
-    sleep(1)
-    await eor(event, "`Dan Selalu Bersyukur`")
+    await eor(event, "`\n\nㅤPAYMENT ACENG • STOREE \n\n DANA = 0895611203477 \n\n\n\nㅤ ACENG • STOREE \n\nㅤGOPAY = 081270603368  \n\n\n\nㅤㅤ★@ACENG_STOREE★`")
 # Create by myself @yusril4you
 
 CMD_HELP.update(
