@@ -9,7 +9,7 @@ async def _(event):
     sleep(2)
     await eor(event, "`Mohon Tunggu.....`")
     sleep(1)
-    await eor(event, "`**PAYMENT ACENG • STOREE \n\n DANA = 0895611203477 \n\nㅤPAYMENT ACENG • STOREE \n\nㅤGOPAY = 081270603368 \n\nㅤ★@ACENG_STOREE★**",
+    await eor(event, "` **PAYMENT ACENG • STOREE \n\n DANA = 0895611203477 \n\nㅤPAYMENT ACENG • STOREE \n\nㅤGOPAY = 081270603368 \n\nㅤ★@ACENG_STOREE★**`")
     # Create by myself @YUSRIL4YOU
 
 
