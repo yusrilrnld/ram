@@ -12,7 +12,7 @@ from userbot.utils import edit_delete, edit_or_reply, ram_cmd as star
 from userbot.events import register as mek
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/ramadhani892/Ramblack/master/blacklistgcast.json"
+        "https://raw.githubusercontent.com/yusrilrnld/Ramblack/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -39,7 +39,7 @@ async def gcast(event):
         msg = await event.get_reply_message()
     else:
         return await edit_delete(event, "**KALO MALAS TYPING YA MINIMAL REPLY LAH NGENTOD**")
-    kk = await edit_or_reply(event, "`Limit jangan Salahin Gua tot, Lagi gua kirim ni....`")
+    kk = await edit_or_reply(event, "`Limit jangan Salahin Gua Blok, Lagi gua kirim ni....`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
